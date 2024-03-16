@@ -1,0 +1,15 @@
+{
+  "name": "my-backend-learning",
+  "version": "1.0.0",
+  "description": "My Backend learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "javascript"
+  ],
+  "author": "Akash Gautam",
+  "license": "ISC"
+}
