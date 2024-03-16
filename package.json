@@ -1,15 +1,21 @@
 {
-  "name": "my-backend-learning",
-  "version": "1.0.0",
-  "description": "My Backend learning",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "backend",
-    "javascript"
-  ],
-  "author": "Akash Gautam",
-  "license": "ISC"
+	"name": "my-backend-learning",
+	"version": "1.0.0",
+	"description": "My Backend learning",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon src/index.ja"
+	},
+	"keywords": [
+		"backend",
+		"javascript"
+	],
+	"author": "Akash Gautam",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.0",
+		"prettier": "^3.2.5"
+	}
 }
